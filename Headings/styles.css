@@ -1,0 +1,23 @@
+h1#text_indent {
+  height: 75px;
+  background-image: url(images/h1.png);
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+}
+
+h1#additional_markup {
+  position: relative;
+  width: 441px;
+  height: 75px;
+  overflow: hidden;
+}
+
+h1#additional_markup span {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url(images/h1.png);
+  background-repeat: no-repeat;
+}
