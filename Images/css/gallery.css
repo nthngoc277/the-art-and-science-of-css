@@ -39,3 +39,43 @@ p {
   margin: 0 6px;
   padding: 0;
 }
+
+img {
+  display: block;
+  margin: 0 auto 5px auto;
+  border: 1px solid #CCC;
+  border-bottom-color: #EEE;
+  border-left-color: #FFF;
+  border-top-color: #BBB;
+}
+
+p.photo {
+  margin: 0 0 10px 0;
+  float: left;
+  width: 75%;
+  text-align: center;
+  background-color: #fff;
+  line-height: 1em;
+}
+
+p.photo a {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 4px 4px 9px 4px;
+  border: 1px solid #ccc;
+  border-top-color: #eee;
+  border-right-color: #ddd;
+  border-bottom-color: #bbb;
+  background-color: #fff;
+  text-align: center;
+}
+
+p.photo a:hover {
+  border-color: #ccc;
+  background-color: #eee;
+}
+
+p.description {
+  clear: left;
+}
