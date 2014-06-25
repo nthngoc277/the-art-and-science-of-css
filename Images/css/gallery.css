@@ -35,7 +35,7 @@ h1 a, h1 a:link, h1 a:hover, h1 a em, h1 a:link em, h1 a:hover em {
   color: #999;
 }
 
-p {
+p, ul {
   margin: 0 6px;
   padding: 0;
 }
@@ -58,7 +58,7 @@ p.photo {
   line-height: 1em;
 }
 
-p.photo a {
+p.photo a, ul.thumbnails a {
   display: block;
   float: left;
   margin: 0;
@@ -71,7 +71,7 @@ p.photo a {
   text-align: center;
 }
 
-p.photo a:hover {
+p.photo a:hover, ul.thumbnails a:hover {
   border-color: #ccc;
   background-color: #eee;
 }
@@ -86,4 +86,21 @@ p.description {
   width: 612px;
   font-size: 1.25em;
   line-height: 1.75em;
+}
+
+ul.navigation {
+  margin: 0 0 10px 0;
+  padding: 0;
+  text-align: center;
+  line-height: 1em;
+  list-style: none;
+  position: absolute;
+  top: 58px;
+  left: 650px;
+}
+
+ul.navigation li {
+  display: inline;
+  margin: 0;
+  padding: 0;
 }
