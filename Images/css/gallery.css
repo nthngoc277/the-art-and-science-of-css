@@ -79,3 +79,11 @@ p.photo a:hover {
 p.description {
   clear: left;
 }
+
+#content {
+  margin: 0 auto 20px 20px;
+  padding: 1em 0 0 0;
+  width: 612px;
+  font-size: 1.25em;
+  line-height: 1.75em;
+}
