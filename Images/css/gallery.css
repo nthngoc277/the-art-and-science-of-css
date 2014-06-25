@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  color: #4F4F4F;
+  font: 60%/1.75em "Times New Roman", serif;
+}
+
+a {
+  border-bottom: 1px dotted #960;
+  text-decoration: none;
+  color: #960;
+}
+
+a:hover {
+  border-bottom: 1px solid #960;
+}
+
+h1 {
+  margin: 0 6px;
+  padding: 0 0 .5em 0;
+  color: #CCC;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 2.375em;
+}
+
+h1 em {
+  color: #4D4D4D;
+}
+
+h1 a, h1 a:link, h1 a:hover, h1 a em, h1 a:link em, h1 a:hover em {
+  border-color: #999;
+  color: #999;
+}
+
+p {
+  margin: 0 6px;
+  padding: 0;
+}
