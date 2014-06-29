@@ -66,21 +66,21 @@ img.intro {
   padding: 1em;
   line-height: 1em;
   width: 258px;
-  border: 1px double #CCC;
-  display: block;
-  border-top-color: #EEE;
-  border-right-color: #DDD;
-  border-bottom-color: #BBB;
+  border: 3px solid #333;
 }
 
 .captioned_photo p {
   position: absolute;
-  bottom: 2.25em;
-  left: 1.375em;
+  bottom: 14px;
+  left: 0;
   display: block;
   width: 240px;
-  margin: 0;
+  margin: 0 0 0 1.5em;
   padding: 0;
+  border: 1px solid #666;
+  border-right-color: #000;
+  border-bottom-color: #000;
+  background-color: #111;
   font: 0.75em/1.75em Verdana, sans-serif;
   letter-spacing: 0.5em;
   color: #FFF;
@@ -96,4 +96,5 @@ img.intro {
   padding: 0;
   display: block;
   float: left;
+  border: 1px solid #FFF;
 }
