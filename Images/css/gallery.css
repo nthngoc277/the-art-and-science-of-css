@@ -105,3 +105,9 @@ ul.navigation li {
   margin: 0;
   padding: 0;
 }
+
+ul.thumbnails a {
+  width: 90px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
