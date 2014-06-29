@@ -60,20 +60,35 @@ img.intro {
 }
 
 .captioned_photo {
+  position: relative;
   float: right;
   margin: 0.5em 0 0.5em 2em;
-  padding: 0;
+  padding: 1em;
   line-height: 1em;
-  width: 360px;
+  width: 258px;
+  border: 1px double #CCC;
+  display: block;
+  border-top-color: #EEE;
+  border-right-color: #DDD;
+  border-bottom-color: #BBB;
 }
 
 .captioned_photo p {
-  width: 20%;
-  margin: 80px 0 0 2em;
-  padding: 1em 0;
+  position: absolute;
+  bottom: 2.25em;
+  left: 1.375em;
+  display: block;
+  width: 240px;
+  margin: 0;
+  padding: 0;
   font: 0.75em/1.75em Verdana, sans-serif;
-  color: #666;
-  float: left;
+  letter-spacing: 0.5em;
+  color: #FFF;
+}
+
+.captioned_photo p span {
+  display: block;
+  padding: 0.75em;
 }
 
 .captioned_photo img {
