@@ -1,0 +1,54 @@
+h2 {
+  margin: 0 0 5px 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  clear: both;
+}
+
+h2 a:link, h2 a {
+  display: block;
+  padding: 0 5px;
+  border: 1px solid #CCC;
+  border-top-color: #EEE;
+  border-right-color: #DDD;
+  border-bottom-color: #BBB;
+}
+
+h2 a:hover {
+  border-color: #CCC;
+  background-color: #EEE;
+}
+
+p.thumb {
+  margin: 0 0 10px 0;
+  padding: 0;
+  float: left;
+  text-align: center;
+  background-color: #FFF;
+  line-height: 1em;
+  list-style: none;
+}
+
+p.thumb a {
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 4px 4px 9px 4px;
+  border: 1px solid #CCC;
+  border-top-color: #EEE;
+  border-bottom-color: #BBB;
+  border-right-color: #DDD;
+  background-color: #FFF;
+  text-align: center;
+}
+
+p.thumb a {
+  width: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+p.thumb a:hover {
+  border: 1px solid #CCC;
+  background-color: #EEE;
+}
