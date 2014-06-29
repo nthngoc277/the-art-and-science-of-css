@@ -77,7 +77,7 @@ p.photo a:hover, ul.thumbnails a:hover {
 }
 
 p.description {
-  clear: left;
+  clear: both;
 }
 
 #content {
@@ -100,7 +100,8 @@ ul.navigation {
 }
 
 ul.navigation li {
-  display: inline;
+  /* display: inline; */
+  float: left;
   margin: 0;
   padding: 0;
 }
