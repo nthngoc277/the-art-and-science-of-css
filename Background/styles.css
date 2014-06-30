@@ -1,0 +1,73 @@
+body {
+  background: #A4A4A4 url(images/background.jpg) repeat-x;
+}
+
+#bird {
+  background: url(images/bird.png) no-repeat;
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 512px;
+  height: 512px;
+}
+
+#logo {
+  background: url(images/logo.png) no-repeat;
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  text-indent: -9999px;
+  top: 15%;
+  right: 40px;
+  margin: 0;
+  z-index: 3;
+}
+
+#intro {
+  position: absolute;
+  top: 15%;
+  left: 40px;
+  padding: 5px 0 0 61px;
+  width: 250px;
+}
+
+#intro span {
+  background: url(images/d.png) no-repeat;
+  top: -1000px;
+}
+
+#intro p {
+  margin: 0 0 12px 0;
+  font-family: Georgia, sans-serif;
+  font-size: 0.8em;
+}
+
+#portfolio {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  background: url(images/portfolio.jpg) repeat;
+}
+
+ul {
+  position: absolute;
+  list-style: none inside;
+  left: 40px;
+  width: 400px;
+  height: 180px;
+  z-index: 4;
+}
+
+ul li a {
+  float: left;
+  width: 90px;
+  height: 90px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+ul li a img {
+  border: 0;
+}
