@@ -1,0 +1,59 @@
+html {
+  font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+}
+
+body {
+  font-size: 92%;
+}
+
+#nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: left;
+  background-color: #000;
+}
+
+#nav li {
+  padding: 0;
+  margin: 0 1px 0 0;
+  float: left;
+  display: inline;
+  background: green url(imgs/left.png) no-repeat;
+
+}
+
+#nav a {
+  float: left;
+  padding: 0 15px;
+  color: #FFF;
+  display: inline;
+  text-decoration: none;
+  line-height: 2.5;
+  background: green url(imgs/right.png) no-repeat top right;
+}
+
+#nav #nav_con a {
+  border: none;
+}
+
+#nav a:hover {
+  background: #4F4532;
+}
+
+#nav li.current a {
+  background: #BEB06F;
+  color: #1A1303;
+  font-weight: bold;
+}
+
+#body_hom #nav_hom a,
+#body_map #nav_map a,
+#body_jou #nav_jou a,
+#body_his #nav_his a,
+#body_ref #nav_ref a,
+#body_con #nav_con a {
+  background: #BEB06F;
+  color: #1A1303;
+  font-weight: bold;
+}
