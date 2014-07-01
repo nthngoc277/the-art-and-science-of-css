@@ -35,3 +35,20 @@ body {
 #nav a:hover {
   background: #4F4532;
 }
+
+#nav li.current a {
+  background: #BEB06F;
+  color: #1A1303;
+  font-weight: bold;
+}
+
+#body_hom #nav_hom a,
+#body_map #nav_map a,
+#body_jou #nav_jou a,
+#body_his #nav_his a,
+#body_ref #nav_ref a,
+#body_con #nav_con a {
+  background: #BEB06F;
+  color: #1A1303;
+  font-weight: bold;
+}
