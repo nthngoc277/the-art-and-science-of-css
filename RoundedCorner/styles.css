@@ -1,0 +1,28 @@
+#round-all {
+  background-color: red;
+  width: 200px;
+  height: 200px;
+  border-radius: 10%;
+  float: left;
+}
+
+#round-left-top {
+  background-color: green;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 20%;
+  display: inline;
+  float: left;
+  margin: 0 15px;
+}
+
+#round-difference {
+  background-color: blue;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 30px;
+  display: inline;
+  float: left;
+}
