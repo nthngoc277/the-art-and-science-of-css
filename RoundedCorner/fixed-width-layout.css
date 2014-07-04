@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+}
+
+body {
+  font-size: 92%;
+  background: #2D2419;
+}
+
+#wrapper {
+  background: #FFF;
+  width: 550px;
+  margin: 0 auto;
+}
+
+#header {
+  background: url(imgs/header.png) top left no-repeat;
+  text-align: center;
+}
+
+#footer {
+  background: #100D09;
+  color: #999;
+}
