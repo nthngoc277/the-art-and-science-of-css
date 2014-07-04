@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font: small/1.4 "Lucida Grande", Tahoma, sans-serif;
+}
+
+body {
+  font-size: 92%;
+  background: #FFF;
+}
+
+#feature {
+  background: #968F66 url(imgs/bottom-left.png) no-repeat bottom left;
+  width: 20em;
+}
+
+#feature dl {
+  background: url(imgs/top-left.png) no-repeat;
+}
+
+#feature dt {
+  background: url(imgs/top-right.png) no-repeat top right;
+  padding: 1.17em 1.17em 0;
+  font-size: 170%;
+  color: #FFF;
+  line-height: 1;
+}
+
+#feature dd {
+  background: url(imgs/bottom-right.png) no-repeat bottom right;
+  padding: 1em 2em 2em;
+  color: #1B220F;
+  line-height: 1.3;
+}
+
