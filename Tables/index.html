@@ -1,0 +1,85 @@
+<html>
+<head>
+  <title>Basic table</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <table frame="hsides" rules="group">
+    <caption>Site that I like to visit</caption>
+    <col width="40%"></col>
+    <col width="60%"></col>
+    <thead>
+      <tr>
+        <th scope="col">Person</th>
+        <th scope="col">Website</th>
+    </tr>
+    </thead>
+
+    <tfoot>
+      <tr>
+        <td colspan="2"> Enjoys Dance Dance Revolution </td>
+      </tr>
+    </tfoot>
+
+    <tbody>
+      <tr>
+        <td>Ruby</td>
+        <td>http://nthngoc.info</td>
+      </tr>
+      <tr>
+        <td>ecomcom</td>
+        <td>http://ecomcom.net</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <table>
+    <caption>Growth Chart</caption>
+    <col width="60%" />
+    <col width="20%" id="test"/>
+    <col width="20%" />
+    <thead>
+     <tr>
+       <th scope="col">Name</th>
+       <th scope="col">Age</th>
+       <th scope="col">Height</th>
+     </tr>
+    </thead>
+    <tfoot>
+     <tr>
+       <td colspan="3">[1] Has <a
+          href="http://en.wikipedia.org/wiki/Gigantism">
+          Gigantism</a></td>
+     </tr>
+    </tfoot>
+    <tbody>
+     <tr>
+       <th rowspan="3" align="left">Albert</th>
+       <td>1</td>
+       <td align="center">2 ft. 8 in.</td>
+  </tr> <tr>
+  <td>10</td>
+       <td align="center">4 ft. 6 in.</td>
+     </tr>
+     <tr>
+       <td>20</td>
+       <td align="center">6 ft. 1 in.</td>
+     </tr>
+    </tbody>
+    <tbody>
+     <tr>
+       <th rowspan="3" align="left">Betty [1]</th>
+       <td>1</td>
+       <td align="center">2 ft. 3 in.</td>
+  </tr> <tr>
+  <td>10</td>
+       <td align="center">4 ft. 2 in.</td>
+     </tr>
+     <tr>
+       <td>20</td>
+       <td align="center">7 ft. 2 in.</td>
+     </tr>
+    </tbody>
+  </table>
+</body>
+</html>
